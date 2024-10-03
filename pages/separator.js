@@ -8,14 +8,14 @@ import separatorBottomLight from "../public/images/light/separator/separator-bot
 import Context, { useAppContext } from "@/context/Context";
 
 const Separator = ({ top }) => {
-  const { isLightTheme } = useAppContext();
+  // const { isLightTheme, toggleTheme } = useAppContext();
 
   return (
     <>
       <Context>
         {top ? (
           <div className="chatenai-separator">
-            {isLightTheme ? (
+            {true ? (
               <Image
                 className={"w-100 separator-dark"}
                 src={separatorTop}
@@ -31,7 +31,7 @@ const Separator = ({ top }) => {
           </div>
         ) : (
           <div className="chatenai-separator">
-            {isLightTheme ? (
+            {true ? (
               <Image
                 className={"w-100 separator-dark"}
                 src={separatorBottom}
