@@ -19,7 +19,8 @@ const Nav = () => {
     <>
       <ul className="mainmenu">
         <li>
-          <Link href="/dashboard">Welcome</Link>
+          {/* <Link href="/dashboard">Welcome</Link> */}
+          <Link href="/">Home</Link>
         </li>
         <li className="with-megamenu has-menu-child-item position-relative">
           <a

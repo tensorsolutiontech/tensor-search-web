@@ -46,13 +46,14 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-3 col-md-6 col-6">
               <div className="logo">
                 <Link href="/">
-                  <Image
+                  {/* <Image
                     className={isLightTheme ? "logo-light" : "logo-dark"}
                     src={isLightTheme ? logo : logoDark}
                     width={201}
                     height={35}
                     alt="ChatBot Logo"
-                  />
+                  /> */}
+                  <h4>TensorSearch</h4>
                 </Link>
               </div>
             </div>
@@ -62,18 +63,18 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                   <Nav />
                 </nav>
 
-                <div className="header-btn">
+                {/* <div className="header-btn">
                   <Link
                     className={`btn-default ${btnClass}`}
                     href="/text-generator"
                   >
                     Get Started Free
                   </Link>
-                </div>
+                </div> */}
 
-                <GridMenu ToolsData={ToolsData} />
+                {/* <GridMenu ToolsData={ToolsData} /> */}
 
-                <div className="mobile-menu-bar ml--5 d-block d-lg-none">
+                {/* <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                   <div className="hamberger">
                     <button
                       className="hamberger-button"
@@ -82,7 +83,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                       <i className="feather-menu"></i>
                     </button>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

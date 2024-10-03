@@ -31,13 +31,13 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--60">
                 <h1 className="title display-one">
-                  Unlock The Power Of <br />
-                  <span className="theme-gradient">ChatenAI AI</span> With{" "}
+                  Revolutionize Enterprise Search with <br />
+                  <span className="theme-gradient">TensorSearch </span>
                   <br />
-                  <span className="color-off">Smartest AI</span>
+                  {/* <span className="color-off">Gen AI powered search</span> */}
                 </h1>
                 <p className="b1 desc-text">
-                  AI-Powered Copywriting A Game-Changer in Content Creation.
+                  Gen AI-Powered multilingual search and chat 
                 </p>
                 <div className="button-group">
                   <Link
@@ -45,7 +45,7 @@ const Home = () => {
                     href="/text-generator"
                   >
                     <div className="has-bg-light"></div>
-                    <span>Start writing for free</span>
+                    <span>Start searching for free</span>
                   </Link>
                 </div>
                 <p className="color-gray mt--5">💳 No credit card required!</p>

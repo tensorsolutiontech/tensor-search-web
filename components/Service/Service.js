@@ -37,10 +37,10 @@ const Service = () => {
                   <span className="theme-gradient">GET IN TOUCH FOR FREE</span>
                 </h4>
                 <h2 className="title w-600 mb--20">
-                  Instant Content Generation with AI
+                  Instant Semantic Search powered by Generative AI
                 </h2>
                 <p className="description b1">
-                  Provide Descriptions, Get Instant AI-Generated Content
+                  Search in any language with custom Generative AI
                 </p>
               </div>
             </div>
