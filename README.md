@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Requirements
-To install and set up the ChatenAI nextjs template and its components correctly, your computer must have Node.js 18.17 or newer. This is a necessary requirement for the installation process
+To install and set up the Tensor Search nextjs template and its components correctly, your computer must have Node.js 18.17 or newer. This is a necessary requirement for the installation process
 
 ```bash
 # if npm install is having any issues

@@ -8,7 +8,7 @@ const Form = () => {
       <form className="new-chat-form border-gradient">
         <textarea rows="1" placeholder="Send a message..."></textarea>
         <div className="left-icons">
-          <div title="ChatenAI" className="form-icon icon-gpt">
+          <div title="Tensor Search" className="form-icon icon-gpt">
             <i className="feather-aperture"></i>
           </div>
         </div>

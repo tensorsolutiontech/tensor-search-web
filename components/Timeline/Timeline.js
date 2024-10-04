@@ -30,22 +30,22 @@ const Timeline = () => {
                 data-sal-delay="100"
               >
                 <h4 className="subtitle ">
-                  <span className="theme-gradient">HOW IT WORKS</span>
+                  <span className="theme-gradient">HERE'S HOW IT WORKS</span>
                 </h4>
                 <h2 className="title w-600 mb--20">
-                  Guide Our AI to Create Your Copy
+                  {/* Guide Our AI to Create Your Copy */}
                 </h2>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-10 offset-lg-1 mt--30">
+            <div className="col-lg-12">
               <div className="timeline-style-two bg-flashlight bg-color-blackest">
                 <div className="row row--0">
                   {TimnelineData &&
                     TimnelineData.timeline.map((data, index) => (
                       <div
-                        className="col-lg-4 col-md-4 rainbow-timeline-single dark-line"
+                        className="col-lg-3 col-md-3 rainbow-timeline-single dark-line"
                         key={index}
                       >
                         <div className="rainbow-timeline">

@@ -109,7 +109,7 @@ const VedioGenerator = () => {
                           src={innerData.aiImg}
                           width={40}
                           height={40}
-                          alt="ChatenAI"
+                          alt="Tensor Search"
                         />
                       </div>
                       <div className="chat-content">

@@ -31,24 +31,30 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--60">
                 <h1 className="title display-one">
-                  Revolutionize Enterprise Search with <br />
-                  <span className="theme-gradient">TensorSearch </span>
+                Multilingual Gen AI search <br/>
+                  {/* Experience Blazing Fast <br/> */}
+                  {/* Revolutionize Enterprise Search with <br /> */}
+                  <span className="theme-gradient">Any (language, Content, Data)   </span>
                   <br />
                   {/* <span className="color-off">Gen AI powered search</span> */}
                 </h1>
                 <p className="b1 desc-text">
-                  Gen AI-Powered multilingual search and chat 
+                  {/* Enterprise Search  */}
+                  {/* Generative AI powered multilingual search and chat  */}
                 </p>
                 <div className="button-group">
+                  <Link className="btn-default btn-large" href="/contact">
+                    Get Started
+                  </Link>
                   <Link
-                    className="btn-default bg-light-gradient btn-large"
-                    href="/text-generator"
+                    className="btn-default btn-large btn-border"
+                    href="/contact"
                   >
-                    <div className="has-bg-light"></div>
-                    <span>Start searching for free</span>
+                    Request Demo
                   </Link>
                 </div>
-                <p className="color-gray mt--5">💳 No credit card required!</p>
+
+                {/* <p className="color-gray mt--5">💳 No credit card required!</p> */}
               </div>
             </div>
             <div className="col-lg-10 col-xl-10 order-1 order-lg-2">

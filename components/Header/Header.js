@@ -53,7 +53,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                     height={35}
                     alt="ChatBot Logo"
                   /> */}
-                  <h4>TensorSearch</h4>
+                  <h4>Tensor Search</h4>
                 </Link>
               </div>
             </div>

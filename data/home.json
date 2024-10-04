@@ -1,54 +1,58 @@
 {
   "service": [
     {
-      "title": "Effortless Content AI",
-      "desc": "Let our AI-powered service take the hard work out of content creation. Get started today with AI.",
+      "title": "Multilingual Support",
+      "desc": "Our platform seamlessly processes and delivers search results in multiple languages, enabling businesses to cater to diverse global audiences with ease.",
       "icon": "activity",
       "delay": 100
     },
     {
-      "title": "Your Words, Our Tech",
-      "desc": "Discover how AI can transform your ideas into engaging with our qualitifull service for a better content.",
+      "title": "Multimodal Search",
+      "desc": "Search across text, images, and audio files all in one platform, using advanced AI to unlock valuable insights from diverse data formats.",
       "icon": "cast",
       "delay": 100
     },
     {
-      "title": "AI-Powered Writing",
-      "desc": "Access AI-generated content for your blogs, websites, and more with our qualitifull convenient service.",
+      "title": "Contextual Intelligence",
+      "desc": "Our GenAI-powered solution understands the context behind user queries, providing accurate and highly relevant results tailored to specific needs.",
       "icon": "map",
       "delay": 200
     },
     {
-      "title": "AI Generation Simple",
-      "desc": "Experience the ease of content creation with our AI service. Write less, achieve more.",
+      "title": "Real-Time Information Retrieval",
+      "desc": "Enjoy fast, real-time search results that improve user experience and operational efficiency, regardless of the volume or complexity of your data.",
       "icon": "loader",
       "delay": 100
     },
     {
-      "title": "Quality AI Content",
-      "desc": "Get professionally written content in no time with our AI service. Quality meets speed.",
+      "title": "Secure and Scalable",
+      "desc": "Whether on-premise or cloud-based, our platform ensures enterprise-grade data security while scaling effortlessly to meet your business growth and data demands.",
       "icon": "speaker",
       "delay": 100
     },
     {
-      "title": "Your Writing Assistant",
-      "desc": "Collaborate with AI to generate content that resonates with your audience. Try it now.",
+      "title": "Cost-Effective SaaS Solution",
+      "desc": "Designed to be affordable for small and medium enterprises (SMEs), our subscription-based model offers cutting-edge AI capabilities without the high upfront costs.",
       "icon": "terminal",
       "delay": 200
     }
   ],
   "timeline": [
     {
-      "title": "1.Select template",
-      "desc": "Easily Select Templates for Website Content."
+      "title": "1. Data Ingestion",
+      "desc": "Upload and securely store multimodal data from various sources."
     },
     {
-      "title": "2.Describe topic",
-      "desc": "All Feature available features in Essentials."
+      "title": "2. AI Processing",
+      "desc": "Our AI analyzes the data, identifying key patterns, context, and language specifics."
     },
     {
-      "title": "3.Generate content",
-      "desc": "Popular Feature available features in Essentials."
+      "title": "3. Natural Language Search",
+      "desc": "Users enter queries in any language; the AI understands and interprets the intent."
+    },
+    {
+      "title": "4. Instant Results",
+      "desc": "The platform delivers accurate, real-time results, customized to the query context and data type."
     }
   ],
   "pricing": [
@@ -187,18 +191,18 @@
   ],
   "accordion": [
     {
-      "title": "What is ChatenAI ? How does it work?",
-      "desc": "ChatenAI is an AI-powered messaging platform that understands and responds to your natural language queries. Ask anything you'd typically ask a human assistant—get weather updates, news, restaurant recommendations, and more!",
+      "title": "What is Tensor Search ? How does it work?",
+      "desc": "Tensor Search is an AI-powered messaging platform that understands and responds to your natural language queries. Ask anything you'd typically ask a human assistant—get weather updates, news, restaurant recommendations, and more!",
       "isExpand": true
     },
     {
-      "title": "What kind of questions can I ask ChatenAI?",
-      "desc": "ChatenAI, an AI-driven messaging platform, adeptly communicates with users using natural language understanding. It delivers helpful responses to your inquiries and requests.",
+      "title": "What kind of questions can I ask Tensor Search?",
+      "desc": "Tensor Search, an AI-driven messaging platform, adeptly communicates with users using natural language understanding. It delivers helpful responses to your inquiries and requests.",
       "isExpand": false
     },
     {
       "title": "Can I get update regularly and For how long do I get updates?",
-      "desc": "Yes, We will get update the ChatenAI. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.",
+      "desc": "Yes, We will get update the Tensor Search. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.",
       "isExpand": false
     },
     {
@@ -207,13 +211,13 @@
       "isExpand": false
     },
     {
-      "title": "HIs my data safe with ChatenAI?",
+      "title": "HIs my data safe with Tensor Search?",
       "desc": "Feel free to toss any questions at chatenAI, just like you would with a human helper—whether it's about the weather, the latest news, restaurant suggestions, or anything else you fancy!",
       "isExpand": false
     },
     {
-      "title": "Is ChatenAI available in multiple languages?",
-      "desc": "Yes, ChatenAI is designed to support multiple languages, offering a versatile and inclusive communication experience for users worldwide.",
+      "title": "Is Tensor Search available in multiple languages?",
+      "desc": "Yes, Tensor Search is designed to support multiple languages, offering a versatile and inclusive communication experience for users worldwide.",
       "isExpand": false
     }
   ]

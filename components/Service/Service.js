@@ -34,10 +34,10 @@ const Service = () => {
                 data-sal-delay="100"
               >
                 <h4 className="subtitle">
-                  <span className="theme-gradient">GET IN TOUCH FOR FREE</span>
+                  {/* <span className="theme-gradient">GET IN TOUCH FOR FREE</span> */}
                 </h4>
                 <h2 className="title w-600 mb--20">
-                  Instant Semantic Search powered by Generative AI
+                  Instant <span className="theme-gradient">Conversational Search</span> powered by Generative AI
                 </h2>
                 <p className="description b1">
                   Search in any language with custom Generative AI
