@@ -33,10 +33,10 @@ const Footer = () => {
                       />
                     </Link>
                   </div>
-                  <p className="b1 text-center mt--20 mb--0">
+                  {/* <p className="b1 text-center mt--20 mb--0">
                     Create Website By Tensor Search So Quick Download And Make Your
                     Site.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

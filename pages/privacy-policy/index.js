@@ -1,6 +1,7 @@
 import React from "react";
 import PageHead from "../Head";
 import Context from "@/context/Context";
+import Header from "@/components/Header/Header";
 import HeaderDashboard from "@/components/Header/HeaderDashboard";
 import PrivacyPolicy from "@/components/PrivacyPolicy/PrivacyPolicy";
 import PopupMobileMenu from "@/components/Header/PopupMobileMenu";
@@ -11,15 +12,15 @@ const TermsPolicyPage = () => {
     <>
       <PageHead title="Privacy Policy" />
 
-      <main className="page-wrapper rbt-dashboard-page">
+      <main className="page-wrapper">
         <Context>
-          <div className="rbt-panel-wrapper">
-            <HeaderDashboard display="d-none" />
-            <PopupMobileMenu />
-            <LeftpanelDashboard />
+            <Header
+              headerTransparent="header-not-transparent"
+              headerSticky="header-sticky"
+              btnClass="btn-small round"
+            />
 
             <PrivacyPolicy />
-          </div>
         </Context>
       </main>
     </>

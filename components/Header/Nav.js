@@ -22,7 +22,22 @@ const Nav = () => {
           {/* <Link href="/dashboard">Welcome</Link> */}
           <Link href="/">Home</Link>
         </li>
-        <li className="with-megamenu has-menu-child-item position-relative">
+        <li>
+          <Link href="/pricing">Pricing</Link>
+        </li>
+        <li>
+          {/* <Link href="/dashboard">Welcome</Link> */}
+          <Link href="/roadmap">Company</Link>
+        </li>
+        <li>
+          {/* <Link href="/dashboard">Welcome</Link> */}
+          <Link href="/blog">Blog</Link>
+        </li>
+        <li>
+          {/* <Link href="/dashboard">Welcome</Link> */}
+          <Link href="/contact">Contact Us</Link>
+        </li>
+        {/* <li className="with-megamenu has-menu-child-item position-relative">
           <a
             href="#"
             onClick={() => setShowItem(!showItem)}
@@ -96,13 +111,11 @@ const Nav = () => {
               </div>
             </div>
           </div>
-        </li>
-        <li>
-          <Link href="/pricing">Pricing</Link>
-        </li>
-        <li>
+        </li> */}
+
+        {/* <li>
           <Link href="/signin">Sign In</Link>
-        </li>
+        </li> */}
       </ul>
     </>
   );

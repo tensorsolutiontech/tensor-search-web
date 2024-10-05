@@ -41,9 +41,9 @@ const HomePage = () => {
           <Separator top={true} />
           <Accordion isHead={true} />
           <Separator top={false} />
-          <Brands />
+          {/* <Brands />
           <Separator top={true} />
-          <CallToAction />
+          <CallToAction /> */}
 
           <Footer />
           <Copyright />

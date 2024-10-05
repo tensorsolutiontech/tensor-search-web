@@ -25,15 +25,15 @@ const Copyright = () => {
             <div className="col-lg-6 col-md-4 col-sm-12 col-12">
               <div className="copyright-right text-center text-lg-end">
                 <p className="copyright-text">
-                  Copyright © 2024
+                  Copyright © {new Date().getFullYear()}
                   <Link
-                    href="https://themeforest.net/user/rainbow-themes"
+                    href="https://www.tensorsolution.in/"
                     className="btn-read-more ps-2"
                   >
-                    <span>Rainbow-Themes.</span>
+                    <span>Tensor Solution Tech Pvt Ltd</span>
                   </Link>
                 </p>
-              </div>
+              </div>  
             </div>
           </div>
         </div>

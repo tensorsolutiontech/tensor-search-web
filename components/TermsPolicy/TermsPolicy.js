@@ -4,97 +4,171 @@ import React from "react";
 const TermsPolicy = () => {
   return (
     <>
-      <div className="rbt-main-content mb--0 mr--0">
+      <div className="mb--0 mr--0">
         <div className="rbt-daynamic-page-content center-width">
           <div className="rbt-dashboard-content">
             <div className="banner-area">
               <div className="settings-area">
                 <h3 className="title">Terms And Condition</h3>
+                <h4>Welcome to Tensor Search. By accessing or using our services, you agree to comply with the following Terms and Conditions. Please read them carefully.</h4>
               </div>
             </div>
             <div className="content-page pb--50">
-              <div className="chat-box-list">
-                <div className="content">
-                  <h4>Welcome to Tensor Search Privacy Policy</h4>
+              <div className="container">
+                <div className="row">
+                  <div className="content">
+                  <h4>1. Acceptance of Terms </h4>
                   <ol>
                     <li>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur (the “Sites”).
-                    </li>
-                    <li>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi architecto beatae vitae dicta sunt explicabo.
-                    </li>
-                    <li>
-                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                      aut odit aut fugit, sed quia consequuntur magni dolores
-                      eos qui ratione voluptatem sequi nesciunt. Neque porro
-                      quisquam est, qui dolorem ipsum quia dolor sit amet,
-                      consectetur, adipisci velit, sed quia non numquam eius
-                      modi tempora incidunt ut labore et dolore magnam aliquam
-                      quaerat voluptatem.
+                      By using our platform, you agree to be bound by these Terms and Conditions, our Privacy Policy, and any additional terms applicable to specific services. If you do not agree with any part of these terms, please discontinue use of the platform immediately.
                     </li>
                   </ol>
 
-                  <h4>The type of personal information we collect</h4>
+                  <h4>2. Use of the Platform</h4>
 
                   <ol>
                     <li>
-                      We collect certain personal information about visitors and
-                      users of our Sites.{" "}
-                      <Link href="http://rainbowit.net/themes/imroz">
-                        http://rainbowit.net/themes/imroz
-                      </Link>
+                    Our platform provides a multilingual, multimodal GenAI conversation search solution available via SaaS or On-Premise models. You agree to use the platform for lawful purposes and in compliance with all applicable laws and regulations.
                     </li>
                     <li>
-                      Ut enim ad minima veniam, quis nostrum exercitationem
-                      ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                      commodi consequatur? Quis autem vel eum iure reprehenderit
-                      qui in ea voluptate velit esse quam nihil molestiae
-                      consequatur, vel illum qui dolorem eum fugiat quo voluptas
-                      nulla pariatur.
+                    You may not misuse the platform by interfering with its functionality or accessing it in a fraudulent manner.
+                    </li>
+                    <li>
+                    Any use of our services for illegal activities, including but not limited to data theft, unauthorized access, or intellectual property infringement, is strictly prohibited.
                     </li>
                   </ol>
 
-                  <h4>How we collect personal information</h4>
+                  <h4>3. User Accounts</h4>
 
                   <ol>
                     <li>
-                      I must explain to you how all this mistaken idea of
-                      denouncing pleasure and praising pain was born and I will
-                      give you a complete account of the system, and expound the
-                      actual teachings.
+                    To access certain features, you may be required to create an account. You are responsible for maintaining the confidentiality of your account information and for all activities conducted under your account.
                     </li>
                     <li>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas molestias excepturi sint
-                      occaecati cupiditate non provident similique sunt in culpa
-                      qui officia deserunt mollitia animi, id est laborum et
-                      dolorum fuga.
+                    Ensure that the information provided is accurate and up-to-date.
                     </li>
                     <li>
-                      On the other hand, we denounce with righteous indignation
-                      and dislike men who are so beguiled and demoralized by the
-                      charms of pleasure of the moment, so blinded by desire,
-                      that they cannot foresee the pain and trouble that are
-                      bound to ensue; and equal blame belongs to those who fail
-                      in their duty through weakness of will, which is the same
-                      as saying through shrinking from toil and pain. These
-                      cases are perfectly simple and easy to distinguish. In a
-                      free hour, when our power of choice is untrammelled and
-                      when nothing prevents our being able to do what we like
-                      best, every pleasure is to be welcomed and every pain
-                      avoided. But in certain circumstances and owing to the
-                      claims of duty or the obligations{" "}
+                    You must notify us immediately of any unauthorized access or breach of security concerning your account.
                     </li>
                   </ol>
+
+                  <h4>4. Intellectual Property</h4>
+
+                  <ol>
+                    <li>
+                    All content, trademarks, logos, and services provided on our platform are the intellectual property of Tensor Search or its licensors.
+                    </li>
+                    <li>
+                    You are granted a limited, non-exclusive, non-transferable license to access and use the platform solely for your internal business purposes.
+                    </li>
+                    <li>
+                    You may not reproduce, distribute, or modify any part of the platform without prior written permission from Tensor Search.
+                    </li>
+                  </ol>
+
+                  <h4>5. Data Security and Privacy</h4>
+
+                  <ol>
+                    <li>
+                    We are committed to protecting your data. Our Privacy Policy outlines how we collect, use, and protect your personal information.
+                    </li>
+                    <li>
+                    By using the platform, you consent to the processing of your data as described in our Privacy Policy.
+                    </li>
+                    <li>
+                    We employ strict security measures to protect your data, but we are not liable for any unauthorized access or breaches that occur due to external factors.
+                    </li>
+                  </ol>
+
+
+                  <h4>6. Payment and Subscription</h4>
+
+                  <ol>
+                    <li>
+                    For SaaS-based services, subscription fees are charged based on the selected pricing plan. All fees must be paid in full by the due date specified during registration.
+                    </li>
+                    <li>
+                    We reserve the right to change pricing or billing methods at any time with notice to you.
+                    </li>
+                    <li>
+                    In case of late or failed payments, your account may be suspended or terminated.
+                    </li>
+                  </ol>
+
+                  <h4>7. Service Availability</h4>
+
+                  <ol>
+                    <li>
+                    We aim to ensure continuous service availability, but we do not guarantee uninterrupted access to the platform. We reserve the right to modify or discontinue services, either temporarily or permanently, with or without notice.
+                    </li>
+                    <li>
+                    Scheduled maintenance and updates may cause temporary outages.
+                    </li>
+                  </ol>
+
+                  <h4>8. Limitation of Liability</h4>
+
+                  <ol>
+                    <li>
+                    Tensor Search is not liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use the platform.
+                    </li>
+                    <li>
+                    We do not warrant that the platform will meet all your requirements or that it will be error-free.
+                    </li>
+                  </ol>
+
+
+
+                  <h4>9. Termination</h4>
+
+                  <ol>
+                    <li>
+                    We may terminate or suspend your account and access to the platform at our discretion, without notice, for any violation of these Terms and Conditions.
+                    </li>
+                    <li>
+                    Upon termination, your right to use the platform will cease immediately, and any outstanding fees will be due.
+                    </li>
+                  </ol>
+
+
+                  <h4>10. Modifications to the Terms</h4>
+
+                  <ol>
+                    <li>
+                    We reserve the right to update or modify these Terms and Conditions at any time. Changes will be posted on our website, and your continued use of the platform constitutes acceptance of any modifications.
+                    </li>
+                  </ol>
+
+                  <h4>11. Governing Law</h4>
+
+                  <ol>
+                    <li>
+                    These Terms and Conditions are governed by and construed in accordance with the laws of India. Any disputes arising from or relating to these terms will be subject to the exclusive jurisdiction of the courts in India.
+                    </li>
+                    <li>
+                    Upon termination, your right to use the platform will cease immediately, and any outstanding fees will be due.
+                    </li>
+                  </ol>
+
+
+                  <h4>12. Contact Us</h4>
+
+                  <ol>
+                    <li>
+                    For any questions or concerns about these Terms and Conditions, please contact us at:
+                    </li>
+                    <li>
+                    Company Name: Tensor Solution Tech Private Ltd 
+                    </li>
+                    <li>
+                    Email: tensor.solutiontech@gmail.com
+                    </li>
+                    <li>
+                    Address: 63 B, Indra Vihar, Airport Road, Bhopal, MP 462030
+                    </li>
+                  </ol> 
+
+                  </div>
                 </div>
               </div>
             </div>

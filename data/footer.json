@@ -5,96 +5,52 @@
       "title": "Newsletter",
       "services": [
         {
-          "title": "Services",
+          "title": "Pricing",
           "top": true,
           "innerItem": [
             {
-              "link": "/text-generator",
-              "text": "Text Generator"
-            },
-            {
-              "link": "/vedio-generator",
-              "text": "Video Generator"
-            },
-            {
-              "link": "/code-generator",
-              "text": "HTML Generator"
-            },
-            {
-              "link": "/image-editor",
-              "text": "Photo Editor"
+              "link": "/pricing",
+              "text": "Pricing"
             }
           ]
         }
       ],
       "products": [
         {
-          "title": "Products",
+          "title": "Company",
           "top": false,
           "innerItem": [
             {
-              "text": "About",
-              "link": "/utilize"
-            },
-            {
-              "text": "Roadmap",
+              "text": "Company",
               "link": "/roadmap"
-            },
-            {
-              "text": "Contact",
-              "link": "/contact"
-            },
-            {
-              "text": "Terms Policy",
-              "link": "/terms-policy"
             }
           ]
         }
       ],
       "company": [
         {
-          "title": "Company",
+          "title": "Contact Us",
           "top": true,
           "innerItem": [
             {
-              "text": "Corporate",
-              "link": "#"
-            },
-            {
-              "text": "Portfolio",
-              "link": "#"
-            },
-            {
-              "text": "SEO Agency",
-              "link": "#"
-            },
-            {
-              "text": "Web Agency",
-              "link": "#"
+              "text": "Contact Us",
+              "link": "/contact"
             }
           ]
         }
       ],
       "solutions": [
         {
-          "title": "Solutions",
+          "title": "Terms & Conditions",
           "top": false,
           "innerItem": [
             {
-              "text": "Gallery",
-              "link": "#"
+              "text": "Terms Policy",
+              "link": "/terms-policy"
             },
             {
-              "text": "Testimonial",
-              "link": "#"
-            },
-            {
-              "text": "Contact",
-              "link": "/blog-list"
-            },
-            {
-              "text": "Service",
-              "link": "#"
+              "text": "Privacy Policy",
+              "link": "/privacy-policy"
             }
           ]
         }
