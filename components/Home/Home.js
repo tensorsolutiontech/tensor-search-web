@@ -85,13 +85,22 @@ const Home = () => {
                   <Link className="btn-default btn-large" href="/contact">
                     Get Started
                   </Link>
-                  <Link
-                    className="btn-default btn-large btn-border" style={{borderColor : "#7064e94d", color: "#181818"}}
-                    href="/contact"
-                  >
-                    Request Demo
-                  </Link>
-                  
+                  {
+                    isLightTheme ? 
+                      <Link
+                        className="btn-default btn-large btn-border" style={{borderColor : "#7064e94d", color: "#ccceef" }}
+                        href="/contact"
+                      >
+                        Request Demo
+                      </Link> 
+                    : 
+                    <Link
+                      className="btn-default btn-large btn-border" style={{borderColor : "#7064e94d", color: "#181818"}}
+                      href="/contact"
+                    >
+                      Request Demo
+                    </Link>
+                  }
                 </div>
 
                 {/* <p className="color-gray mt--5">💳 No credit card required!</p> */}
