@@ -15,9 +15,9 @@ const PlansBilling = () => {
                 parentClass="col-xl-4 col-lg-6 col-md-6 col-12"
                 childClass="tab-content bg-transparent bg-light"
                 start={1}
-                end={4}
-                isHeading={false}
-                gap={false}
+                end={3}
+                isHeading={true}
+                gap={true}
               />
               <div className="row rainbow-section-gap row--20">
                 <div className="col-lg-12">

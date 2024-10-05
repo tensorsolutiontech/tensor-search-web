@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import React, { useEffect } from "react";
+import AvatarThree from "../../public/images/team/team-03.png";
 
 import sal from "sal.js";
 
@@ -32,9 +34,25 @@ const ServiceItem = ({ ServiceData }) => {
             key={index}
           >
             <div className="service service__style--1 bg-color-blackest radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
-              <div className="icon">
-                <i className={`feather-${data.icon}`}></i>
+              {data.title === "Secure and Scalable" ? 
+                <div className="icon">
+                  <i className={`feather-${data.icon}`}></i>
+                </div>
+              : 
+              (
+                <div className="col-lg-2">
+                  <div className="icon">
+                    <Image
+                      src={data.img_url}
+                      width={43}
+                      height={45}
+                      alt="Author Images"
+                    />
+                </div>
               </div>
+              )
+              }
+
               <div className="content">
                 <h4 className="title w-600">
                   <Link href="#">{data.title}</Link>

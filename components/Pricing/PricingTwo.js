@@ -52,10 +52,11 @@ const PricingTwo = ({
                         <span className="theme-gradient">Pricing</span>
                       </h4>
                       <h2 className="title w-600 mb--20">
-                        Commence Content Journey with AI
+                      Commence Search Journey with Tensor Search
                       </h2>
                       <p className="description b1">
-                        Collaborate with AI to generate content that resonates.
+                      We offer flexible pricing tailored to suit businesses of all sizes, ensuring you get the best value for your needs. Choose from our three pricing tiers:
+
                       </p>
                     </div>
                   ) : (

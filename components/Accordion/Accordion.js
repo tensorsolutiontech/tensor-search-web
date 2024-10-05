@@ -21,7 +21,7 @@ const Accordion = ({ isHead }) => {
                   data-sal-delay="100"
                 >
                   <h4 className="subtitle ">
-                    <span className="theme-gradient">Accordion</span>
+                    <span className="theme-gradient">FAQ</span>
                   </h4>
                   <h2 className="title w-600 mb--20">
                     Frequently Asked Questions

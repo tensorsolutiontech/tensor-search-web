@@ -36,12 +36,47 @@ const Pricing = () => {
                   <span className="theme-gradient">Pricing</span>
                 </h4>
                 <h2 className="title w-600 mb--20">
-                  Commence Content Journey with AI
+                  Commence Search Journey with Tensor Search
                 </h2>
                 <p className="description b1">
-                  Collaborate with AI to generate content that resonates.
+                We offer flexible pricing tailored to suit businesses of all sizes, ensuring you get the best value for your needs. Choose from our three pricing tiers:
                 </p>
               </div>
+              <nav className="chatenai-tab">
+                    <div
+                      className="tab-btn-grp nav nav-tabs mb-3 text-center justify-content-center"
+                      id="nav-tab"
+                      role="tablist"
+                    >
+                      <button
+                        className="nav-link active"
+                        id="nav-home-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#nav-home"
+                        type="button"
+                        role="tab"
+                        aria-controls="nav-home"
+                        aria-selected="true"
+                      >
+                        Monthly
+                      </button>
+                      <button
+                        className="nav-link with-badge"
+                        id="nav-profile-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#nav-profile"
+                        type="button"
+                        role="tab"
+                        aria-controls="nav-profile"
+                        aria-selected="false"
+                      >
+                        Yearly
+                        <span className="rainbow-badge-card badge-border">
+                          20% Off
+                        </span>
+                      </button>
+                    </div>
+                  </nav>
             </div>
           </div>
           <div className="row row--15">
@@ -61,10 +96,11 @@ const Pricing = () => {
                             {data.price === 0 ? (
                               ""
                             ) : (
-                              <span className="currency">$</span>
+                              
+                              (data.price === -1 ? "" : <span className="currency">$</span>)
                             )}
                             <span className="price">
-                              {data.price === 0 ? "Free" : data.price}
+                              {data.price === 0 ? "Free" : (data.price === -1 ? "Custom" : data.price)}
                             </span>
                           </div>
                           <span className="subtitle">{data.subTitle}</span>

@@ -28,10 +28,10 @@ const Pricing = () => {
             <div className="rainbow-gradient-circle theme-pink"></div>
           </div>
           <PricingTwo
-            parentClass="col-xl-3 col-lg-6 col-md-6 col-12"
+            parentClass="col-xl-4  col-lg-6 col-md-6 col-12"
             childClass="tab-content p-0 bg-transparent border-0 border bg-light"
             start={0}
-            end={4}
+            end={3}
             isHeading={true}
             gap={true}
           />

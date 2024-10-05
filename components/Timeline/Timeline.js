@@ -79,19 +79,15 @@ const Timeline = () => {
                 </div>
               </div>
               <div className="button-group mt--50 text-center">
-                <Link className="btn-default btn-large" href="/text-generator">
-                  Start writing for free
-                </Link>
-                <Link
-                  className="btn-default btn-large btn-border popup-video"
-                  href="https://youtu.be/ThRYF96HIzA?si=Yz-Yc5HSf8uLPv-G"
-                  data-vbtype="video"
-                >
-                  <span>
-                    <i className="feather-play"></i>
-                  </span>{" "}
-                  See action in video
-                </Link>
+              <   Link className="btn-default btn-large" href="/contact">
+                    Get Started
+                  </Link>
+                  <Link
+                    className="btn-default btn-large btn-border"
+                    href="/contact"
+                  >
+                    Request Demo
+                  </Link>
               </div>
             </div>
           </div>

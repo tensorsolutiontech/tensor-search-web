@@ -4,36 +4,42 @@
       "title": "Multilingual Support",
       "desc": "Our platform seamlessly processes and delivers search results in multiple languages, enabling businesses to cater to diverse global audiences with ease.",
       "icon": "activity",
+      "img_url": "/images/icons/translation.png",
       "delay": 100
     },
     {
       "title": "Multimodal Search",
       "desc": "Search across text, images, and audio files all in one platform, using advanced AI to unlock valuable insights from diverse data formats.",
       "icon": "cast",
+      "img_url": "/images/icons/multimodal_icon.png",
       "delay": 100
     },
     {
-      "title": "Contextual Intelligence",
+      "title": "Conversational Intelligence",
       "desc": "Our GenAI-powered solution understands the context behind user queries, providing accurate and highly relevant results tailored to specific needs.",
       "icon": "map",
+      "img_url": "/images/icons/conversation.png",
       "delay": 200
     },
     {
       "title": "Real-Time Information Retrieval",
       "desc": "Enjoy fast, real-time search results that improve user experience and operational efficiency, regardless of the volume or complexity of your data.",
       "icon": "loader",
+      "img_url": "/images/icons/realtime.png",
       "delay": 100
     },
     {
       "title": "Secure and Scalable",
       "desc": "Whether on-premise or cloud-based, our platform ensures enterprise-grade data security while scaling effortlessly to meet your business growth and data demands.",
       "icon": "speaker",
+      "img_url": "/images/icons/translation.png",
       "delay": 100
     },
     {
       "title": "Cost-Effective SaaS Solution",
       "desc": "Designed to be affordable for small and medium enterprises (SMEs), our subscription-based model offers cutting-edge AI capabilities without the high upfront costs.",
       "icon": "terminal",
+      "img_url": "/images/icons/cost_saving.png",
       "delay": 200
     }
   ],
@@ -51,113 +57,89 @@
       "desc": "Users enter queries in any language; the AI understands and interprets the intent."
     },
     {
-      "title": "4. Instant Results",
-      "desc": "The platform delivers accurate, real-time results, customized to the query context and data type."
+      "title": "4. Start Integration",
+      "desc": "Launch your in house conversational search with existing ecosystem."
     }
   ],
   "pricing": [
     {
-      "title": "Basic",
-      "price": 0,
+      "title": "Starter Plan",
+      "price": 49,
       "text": "",
-      "subTitle": "Forever",
+      "subTitle": "Perfect for small businesses looking to leverage GenAI search at an affordable rate. (Monthly)",
       "isActive": false,
       "subItem": [
         {
-          "text": "7,700 Words",
+          "text": "Multilingual text search",
           "isMinus": false
         },
         {
-          "text": "6+ Templates",
+          "text": "Up to 50,000 search queries",
           "isMinus": false
         },
         {
-          "text": "5+ Languages",
+          "text": "Basic analytics dashboard",
           "isMinus": false
         },
         {
-          "text": "AI Blog generate",
-          "isMinus": true
-        },
-        {
-          "text": "Advance Editor Tool",
-          "isMinus": true
-        },
-        {
-          "text": "Consistent support",
-          "isMinus": true
+          "text": "Email support",
+          "isMinus": false
         }
       ]
     },
     {
-      "title": "Business",
-      "price": 50,
+      "title": "Growth Plan",
+      "price": 149,
       "text": "",
-      "subTitle": "USD Per Month",
+      "subTitle": "Ideal for growing businesses seeking to expand their data capabilities.",
       "isActive": true,
       "subItem": [
         {
-          "text": "80,000 Words",
+          "text": "Multilingual search across text, images, and audio",
           "isMinus": false
         },
         {
-          "text": "6+ Templates",
+          "text": "Up to 250,000 search queries",
           "isMinus": false
         },
         {
-          "text": "5+ Languages",
+          "text": "Advanced analytics & insights",
           "isMinus": false
         },
         {
-          "text": "AI Blog generate",
-          "isMinus": false
-        },
-        {
-          "text": "Advance Editor Tool",
-          "isMinus": false
-        },
-        {
-          "text": "Consistent support",
+          "text": "Priority email and chat support",
           "isMinus": false
         }
       ]
     },
     {
-      "title": "Advanced",
-      "price": 100,
-      "text": "",
-      "subTitle": "USD Per Month",
+      "title": "Enterprise Plan",
+      "price": -1,
+      "text": "Custom",
+      "subTitle": "Comprehensive solution for larger businesses with high data demands.",
       "isActive": false,
       "subItem": [
         {
-          "text": "100,000 Words",
+          "text": "Unlimited search queries across all data types",
           "isMinus": false
         },
         {
-          "text": "6+ Templates",
+          "text": "AI-powered contextual search",
           "isMinus": false
         },
         {
-          "text": "5+ Languages",
+          "text": "Custom integrations and dedicated account manager",
           "isMinus": false
         },
         {
-          "text": "AI Blog generate",
-          "isMinus": false
-        },
-        {
-          "text": "Advance Editor Tool",
-          "isMinus": false
-        },
-        {
-          "text": "Consistent support",
+          "text": "24/7 priority support",
           "isMinus": false
         }
       ]
     },
     {
       "title": "Enterprise",
-      "price": 40,
+      "price": -1,
       "text": "Let's Talk",
       "subTitle": "Forever",
       "isActive": false,
@@ -191,33 +173,43 @@
   ],
   "accordion": [
     {
-      "title": "What is Tensor Search ? How does it work?",
-      "desc": "Tensor Search is an AI-powered messaging platform that understands and responds to your natural language queries. Ask anything you'd typically ask a human assistant—get weather updates, news, restaurant recommendations, and more!",
-      "isExpand": true
-    },
-    {
-      "title": "What kind of questions can I ask Tensor Search?",
-      "desc": "Tensor Search, an AI-driven messaging platform, adeptly communicates with users using natural language understanding. It delivers helpful responses to your inquiries and requests.",
+      "title": "What makes your platform different from other search solutions?",
+      "desc": "Our platform stands out with its multilingual and multimodal search capabilities powered by Generative AI. It enables seamless searches across text, images, and audio, delivering highly accurate, contextual results in real-time, in any language. Unlike other solutions, we cater to diverse data formats and offer both on-premise and SaaS options.",
       "isExpand": false
     },
     {
-      "title": "Can I get update regularly and For how long do I get updates?",
-      "desc": "Yes, We will get update the Tensor Search. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.",
+      "title": "How secure is my data on your platform?",
+      "desc": "Data security is a top priority. We offer enterprise-grade security measures, including encryption, secure access protocols, and compliance with major data protection regulations like GDPR. For organizations that require full control, we provide an on-premise solution to keep data within your infrastructure.",
       "isExpand": false
     },
     {
-      "title": "How can I get the customer support?",
-      "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com.",
+      "title": "Can I integrate your solution with my existing systems?",
+      "desc": "Absolutely! Our platform is designed to be highly flexible and integrates easily with existing systems like ERP, CRM, and other databases. We also offer custom integrations in our Enterprise Plan to suit your specific needs.",
       "isExpand": false
     },
     {
-      "title": "HIs my data safe with Tensor Search?",
-      "desc": "Feel free to toss any questions at chatenAI, just like you would with a human helper—whether it's about the weather, the latest news, restaurant suggestions, or anything else you fancy!",
+      "title": "Do you support non-English languages?",
+      "desc": "Yes! Our platform supports searches in multiple languages, including Hindi, Spanish, French, and more, ensuring you can cater to global users or diverse local markets. The platform can understand and process queries in native languages and return relevant results in real-time.",
       "isExpand": false
     },
     {
-      "title": "Is Tensor Search available in multiple languages?",
-      "desc": "Yes, Tensor Search is designed to support multiple languages, offering a versatile and inclusive communication experience for users worldwide.",
+      "title": "How does the subscription-based SaaS model work?",
+      "desc": "Our SaaS model provides you with a flexible, cost-effective solution where you pay based on your usage needs. This eliminates the need for large upfront costs while giving you access to all the latest features and updates. You can choose from our three pricing tiers—Starter, Growth, and Enterprise—depending on the scale of your operations.",
+      "isExpand": false
+    },
+    {
+      "title": "What kind of support do you offer?",
+      "desc": "We provide multiple levels of support depending on the plan you choose. Our Starter Plan includes email support, while the Growth Plan adds chat support with priority response. For Enterprise customers, we offer 24/7 priority support along with a dedicated account manager.",
+      "isExpand": false
+    },
+    {
+      "title": "How easy is it to set up the platform?",
+      "desc": "Our platform is designed for quick deployment. For the SaaS version, it can be up and running within minutes. For on-premise installations, our team assists with deployment and customization, ensuring smooth integration into your existing infrastructure.",
+      "isExpand": false
+    },
+    {
+      "title": "Can your platform handle large volumes of data?",
+      "desc": "Yes! Our platform is built to scale with your business. Whether you're handling millions of queries per month or managing terabytes of multimodal data, our solution provides high performance and reliability to meet your data demands.",
       "isExpand": false
     }
   ]
