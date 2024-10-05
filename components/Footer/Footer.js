@@ -14,10 +14,10 @@ const Footer = () => {
   return (
     <>
       <footer className="rainbow-footer footer-style-default footer-style-3 position-relative mt-0">
-        <Separator isLight={isLightTheme} top={true} />
+        {/* <Separator isLight={isLightTheme} top={true} /> */}
         <div className="footer-top">
           <div className="container">
-            <div className="row justify-content-center mb--30">
+            {/* <div className="row justify-content-center mb--30">
               <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                 <div className="rainbow-footer-widget text-center">
                   <div className="logo">
@@ -33,13 +33,13 @@ const Footer = () => {
                       />
                     </Link>
                   </div>
-                  {/* <p className="b1 text-center mt--20 mb--0">
+                  <p className="b1 text-center mt--20 mb--0">
                     Create Website By Tensor Search So Quick Download And Make Your
                     Site.
-                  </p> */}
+                  </p> 
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="separator-animated animated-true mt--50 mb--50"></div>
             {FooterData &&
               FooterData.footer.map((data, index) => (

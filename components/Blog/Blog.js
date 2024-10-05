@@ -53,7 +53,7 @@ const Blog = () => {
         </div>
       </div>
 
-      <div className="rainbow-brand-area rainbow-section-gap bg-color-1">
+      {/* <div className="rainbow-brand-area rainbow-section-gap bg-color-1">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -86,7 +86,7 @@ const Blog = () => {
           </div>
           <BrandTwo />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

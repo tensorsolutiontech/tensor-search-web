@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/logo/tensor_search_logo.png";
 import logoDark from "../../public/images/logo/logo-dark.png";
 import ToolsData from "../../data/header.json";
 
@@ -46,14 +46,14 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-3 col-md-6 col-6">
               <div className="logo">
                 <Link href="/">
-                  {/* <Image
+                  <Image
                     className={isLightTheme ? "logo-light" : "logo-dark"}
-                    src={isLightTheme ? logo : logoDark}
-                    width={201}
-                    height={35}
+                    src={isLightTheme ? logo : logo}
+                    width={200}
+                    height={45}
                     alt="ChatBot Logo"
-                  /> */}
-                  <h4>Tensor Search</h4>
+                  />
+                  {/* <h4>Tensor Search</h4> */}
                 </Link>
               </div>
             </div>
