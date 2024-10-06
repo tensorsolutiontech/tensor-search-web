@@ -8,17 +8,121 @@
       "date": "10 Dec 2024",
       "cate": "Technology",
       "title": "Best Corporate Tips You Will Read This Year.",
-      "desc": "Implement user authentication to provide personalized experiences"
+      "desc": "Implement user authentication to provide personalized experiences",
+      "contents": [
+        {"p": "Integrating artificial intelligence (AI) into your startup can indeed unlock exponential growth by enhancing efficiency, improving decision-making, and providing innovative solutions. Here are 10 ways to supercharge your startup with AI integration:"},
+        {
+          "img_url":  "/images/blog/blog-detailes-01.png",
+          "img_alt": "image alternate text",
+          "img_width": 790,
+          "img_height": 445
+        },
+        {
+          "heading": "1. Automated Customer Support:", 
+          "contents": [
+            {"p":"Implement AI-powered chatbots and virtual assistants to provide instant and personalized customer support. This not only improves customer satisfaction but also frees up human resources for more complex tasks."},
+            {
+              "li": [
+                {"heading": "heading 1", "p": "list paragraph 1"},
+                {"heading": "heading 2", "p": "list paragraph 2"}
+              ]
+            },
+            {
+              "img_url":  "/images/blog/blog-detailes-01.png",
+              "img_alt": "image alternate text",
+              "img_width": 790,
+              "img_height": 445
+            }
+          ]
+        },
+        {
+          "heading": "2. Data-driven Decision Making:", 
+          "contents": [
+            {"p":"Implement AI-powered chatbots and virtual assistants to provide instant and personalized customer support. This not only improves customer satisfaction but also frees up human resources for more complex tasks."}
+          ]
+        },
+        {
+          "heading": "3. AI-driven Innovation:", 
+          "contents": [
+            {"p":"Encourage a culture of innovation by using AI to generate insights and ideas. AI can assist in identifying market gaps, predicting industry trends, and proposing innovative solutions to common challenges."}
+          ]
+        },
+        {
+          "heading": "Summary", 
+          "contents": [
+            {"p":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."},
+            {"p":"It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+            {"p":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."}
+          ]
+        }
+      ]
     },
     {
       "id": 2,
       "img": "/images/blog/blog-02.png",
-      "blogImg": "/images/blog/blog-detailes-01.png",
-      "blogImg2": "/images/blog/blog-detailes-02.png",
       "date": "30 Nov 2024",
       "cate": "Development",
-      "title": "Best Corporate Tips You Will Read This Year.",
-      "desc": "Implement user authentication to provide personalized experiences"
+      "title": "Unlock the Power of Multilingual GenAI Search: Transforming How Businesses Access Data",
+      "desc": "Implement user authentication to provide personalized experiences",
+      "contents": [
+        {"p": "In today’s fast-paced digital landscape, businesses across industries are drowning in a sea of data—documents, audio files, images, and more. But here’s the catch: most organizations are still relying on outdated search methods that limit their ability to tap into this treasure trove of information, especially across different languages and data formats."},
+        {"p": "Enter Multilingual GenAI Search: The Future of Data Access"},
+        {"p": "At Tensor Search, we believe that the future of search is multilingual, multimodal, and powered by Generative AI (GenAI). Our cutting-edge platform enables businesses to access and retrieve relevant information from any data type—text, images, and even audio—within seconds, regardless of language."},
+        {"p": "Let’s take a deeper look into why this is a game-changer for modern businesses."},
+        {
+          "heading": "Why Traditional Search Methods Fall Short",
+          "contents": [
+            {"p": "Most businesses today rely on keyword-based search tools that often deliver incomplete or irrelevant results. The problem intensifies when data spans across different formats and languages. For example, imagine trying to locate a critical contract hidden within thousands of PDFs, or searching for key insights in audio files stored in multiple languages. Not only is this time-consuming, but it can also lead to missed opportunities and lost productivity."},
+            {"p":"Simply put, the lack of contextual understanding in traditional search methods is holding businesses back."}
+          ]
+        },
+        {
+          "heading": "How Multilingual GenAI Search Changes the Game",
+          "contents": [
+            {"p":"Our Multilingual GenAI Search Platform takes a smarter approach, using AI to understand context, intent, and language nuances behind search queries. Whether you're looking for:"},
+            {
+              "li": [
+                {"p": "Business documents in English"},
+                {"p": "Product reviews in Spanish"},
+                {"p": "Audio recordings in Hindi"}
+              ]
+            },
+            {"p": "Our AI-powered platform processes the query, retrieves the relevant content, and provides instant, precise results in any language."}
+          ]
+        },
+        {
+          "heading": "Key Benefits of Multilingual GenAI Search", 
+          "contents": [
+            {
+              "li": [
+                {"heading": "Break Down Language Barriers", "p": "In a global marketplace, customers and employees speak a variety of languages. With multilingual capabilities, our platform helps you search across languages seamlessly—boosting engagement and ensuring no valuable data is lost."},
+                {"heading": "Search Beyond Text", "p": "Unlike traditional search engines, our platform processes images, audio, and text, making it ideal for industries with large volumes of unstructured data, like healthcare, finance, and legal sectors."},
+                {"heading": "Speed and Precision", "p": "Time is money. Our GenAI-powered search provides real-time results, saving your team valuable hours spent manually digging through files."},
+                {"heading": "Contextual Understanding", "p": "Instead of delivering random search results, our platform analyzes context and intent, ensuring that the information retrieved is accurate and relevant to your query."}
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Real-World Applications of Multilingual GenAI Search", 
+          "contents": [
+            {
+              "li": [
+                {"heading": "E-Commerce:", "p": "An online retailer can improve product discovery by allowing users to search for products in their native language using conversational queries like 'शादी के लिए लाल साड़ी दिखाओ' (Show me red sarees for weddings)."},
+                {"heading": "Finance & Banking:", "p": "Financial institutions can use AI-powered search to streamline compliance and due diligence processes by finding specific clauses or documents across massive datasets, even in non-English languages."},
+                {"heading": "Customer Support:", "p": "A customer service team can instantly retrieve relevant customer records or knowledge base articles to resolve queries faster, improving overall satisfaction."}
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The Future of Search is Here",
+          "contents": [
+            {"p": "As the demand for faster, smarter, and multilingual search solutions continues to grow, businesses that embrace GenAI technology will unlock new levels of productivity and customer engagement."},
+            {"p":"Don’t get left behind. Empower your business with [Your Company Name’s] Multilingual GenAI Search Platform, and transform the way you access data, no matter the language or format."}
+          ]
+        }
+      ]
     },
     {
       "id": 3,
