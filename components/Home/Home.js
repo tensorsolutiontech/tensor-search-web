@@ -3,11 +3,13 @@ import Typed from "typed.js";
 
 import Image from "next/image";
 import Link from "next/link";
+import Video from 'next-video';
 import { useAppContext } from "@/context/Context";
 
 import "venobox/dist/venobox.min.css";
 
-import bannerImg from "../../public/images/banner/banner-image-03.png";
+import bannerImg from "../../public/images/banner/tensor-search-video-banner.png";
+import homeBannerVideo from '../../public/videos/home/tensor_search_demo_1080.mov';
 import separator from "../../public/images/separator/separator-top.svg";
 import separatorLight from "../../public/images/light/separator/separator-top.svg";
 
@@ -119,6 +121,7 @@ const Home = () => {
                       <i className="feather-play"></i>
                     </span>
                   </Link>
+                  {/* <Video src={homeBannerVideo} />; */}
                 </div>
               </div>
             </div>

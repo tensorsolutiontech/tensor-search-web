@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../public/images/logo/tensor_search_logo.png";
+import logo from "../../public/images/logo/ts_logo1.png";
 import logoDark from "../../public/images/logo/logo-dark.png";
 import ToolsData from "../../data/header.json";
 
@@ -49,9 +49,10 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                   <Image
                     className={isLightTheme ? "logo-light" : "logo-dark"}
                     src={isLightTheme ? logo : logo}
-                    width={200}
-                    height={45}
+                    width={150}
+                    height={200}
                     alt="ChatBot Logo"
+                    style={{height: "75px !important"}}
                   />
                   {/* <h4>Tensor Search</h4> */}
                 </Link>
