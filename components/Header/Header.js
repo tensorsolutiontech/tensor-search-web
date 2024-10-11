@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../public/images/logo/ts_logo1.png";
+import logo from "../../public/images/logo/TS_logo1.png";
 import logoDark from "../../public/images/logo/logo-dark.png";
 import ToolsData from "../../data/header.json";
 
