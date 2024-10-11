@@ -114,7 +114,7 @@ const Home = () => {
                 <div className="video-icon">
                   <Link
                     className="btn-default rounded-player popup-video border bg-white-dropshadow"
-                    href="https://youtu.be/ThRYF96HIzA?si=Yz-Yc5HSf8uLPv-G"
+                    href="https://youtu.be/HLXp0vlbVis"
                     data-vbtype="video"
                   >
                     <span>
