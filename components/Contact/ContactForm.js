@@ -3,7 +3,10 @@ import React from "react";
 const ContactForm = () => {
   return (
     <>
-      <form
+      <div>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0V4am_3ZlZuEjHodn1ADXJ79hd5JaSfq9O-TWKTwU9C_RtA/viewform?embedded=true" width="640" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+      {/* <form
         className="contact-form-1 rainbow-dynamic-form"
         id="contact-form"
         method="POST"
@@ -60,8 +63,9 @@ const ContactForm = () => {
           >
             <span>Submit Now</span>
           </button>
+          
         </div>
-      </form>
+      </form> */}
     </>
   );
 };

@@ -46,15 +46,15 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-3 col-md-6 col-6">
               <div className="logo">
                 <Link href="/">
-                  <Image
+                  {/* <Image
                     className={isLightTheme ? "logo-light" : "logo-dark"}
                     src={isLightTheme ? logo : logo}
                     width={150}
                     height={200}
                     alt="ChatBot Logo"
                     style={{height: "75px !important"}}
-                  />
-                  {/* <h4>Tensor Search</h4> */}
+                  /> */}
+                  <h4 class="theme-gradient">Tensor Search</h4>
                 </Link>
               </div>
             </div>
