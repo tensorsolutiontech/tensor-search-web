@@ -49,7 +49,7 @@ const Footer = () => {
                       <h4 className="title">{data.title}</h4>
                       <div className="inner">
                         <h6 className="subtitle">{data.desc}</h6>
-                        <form className="newsletter-form" action="#">
+                        <form className="newsletter-form" action="/contact">
                           <div className="form-group">
                             <input
                               type="email"
