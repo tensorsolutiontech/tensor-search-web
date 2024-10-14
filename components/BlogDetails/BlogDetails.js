@@ -92,49 +92,41 @@ const SingleBlog = () => {
                                       </p>
                                     )
                                   :
-                                    content.hasOwnProperty('heading1') ?
+                                    content.hasOwnProperty('heading') ?
                                       (
                                         <p>
-                                          <h6>{content["heading"]}</h6>
-                                          
-                                          {content['body'].map((body, jdx) => (
-                                            <p>{body}</p>
+                                          <h4>{content["heading"]}</h4>
+                                          {content['contents'].map((headingContents, kdx) => (
+                                            headingContents.hasOwnProperty('p') ?
+                                              (<p key={kdx}>{headingContents["p"]}</p>)
+                                            :
+                                              (
+                                                headingContents.hasOwnProperty('li') ?
+                                                  <ol>
+                                                    {headingContents['li'].map((list, ldx) => (
+                                                      
+                                                          (list.hasOwnProperty('heading') ?
+                                                            <li>
+                                                              <h5>{list['heading']}</h5>
+                                                              <p>{list["p"]}</p>
+                                                            </li>
+                                                          :
+                                                            <li>{list["p"]}</li>
+                                                          )
+                                                    ))}
+                                                    </ol>
+                                                
+                                                :
+                                                  <ol></ol>
+                                              )
                                           ))}
                                         </p>
                                       )
                                     :
-                                      content.hasOwnProperty('heading') ?
-                                        (
-                                          <p>
-                                            <h6>{content["heading"]}</h6>
-                                            {content['contents'].map((headingContents, kdx) => (
-                                              headingContents.hasOwnProperty('p') ?
-                                                (<p key={kdx}>{headingContents["p"]}</p>)
-                                              :
-                                                (
-                                                  headingContents.hasOwnProperty('li') ?
-                                                    <ol>
-                                                      {headingContents['li'].map((list, ldx) => (
-                                                        
-                                                            (list.hasOwnProperty('heading') ?
-                                                              <li>
-                                                                <h7>{list['heading']}</h7>
-                                                                <p>{list["p"]}</p>
-                                                              </li>
-                                                            :
-                                                              <li>{list["p"]}</li>
-                                                            )
-                                                      ))}
-                                                      </ol>
-                                                  
-                                                  :
-                                                    <ol></ol>
-                                                )
-                                            ))}
-                                          </p>
-                                        )
+                                      content.hasOwnProperty('li') ?
+                                      <></>
                                       :
-                                      ''
+                                        ''
 
                               ))
                             }
