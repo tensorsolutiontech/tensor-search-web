@@ -39,7 +39,7 @@ const BlogItem = ({ blog }) => {
                         </Link>
                       </h4>
                       <p className="description">{data.desc}</p>
-                      <a className="btn-read-more border-transparent" href="#">
+                      <a className="btn-read-more border-transparent" href={`/blog-details/${data.id}`}>
                         <span>
                           Read More{" "}
                           <i className="fa-sharp fa-regular fa-arrow-right"></i>
